@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F3209FD289A3B2100E6DA38 /* UpdateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3209FC289A3B2100E6DA38 /* UpdateView.swift */; };
 		8F7EB4BC2899A39A0012592B /* NoLinesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7EB4BB2899A39A0012592B /* NoLinesApp.swift */; };
 		8F7EB4BE2899A39A0012592B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7EB4BD2899A39A0012592B /* ContentView.swift */; };
 		8F7EB4C02899A39B0012592B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F7EB4BF2899A39B0012592B /* Assets.xcassets */; };
@@ -22,13 +23,13 @@
 		8F7EB4E52899A5D80012592B /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8F7EB4E42899A5D80012592B /* FirebaseFirestoreSwift */; };
 		8F947A2E289A2C20000A7001 /* StoreSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F947A26289A2C1F000A7001 /* StoreSearchView.swift */; };
 		8F947A32289A2C20000A7001 /* StoresListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F947A2A289A2C1F000A7001 /* StoresListView.swift */; };
-		8F947A33289A2C20000A7001 /* UpdateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F947A2B289A2C1F000A7001 /* UpdateView.swift */; };
 		8F947A3C289A2D66000A7001 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F947A3B289A2D66000A7001 /* Landmark.swift */; };
 		8F947A3D289A2D66000A7001 /* LandmarkAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F947A3A289A2D66000A7001 /* LandmarkAnnotation.swift */; };
 		8F947A3F289A2D6A000A7001 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F947A3E289A2D6A000A7001 /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8F3209FC289A3B2100E6DA38 /* UpdateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateView.swift; sourceTree = "<group>"; };
 		8F7EB4B82899A39A0012592B /* NoLines.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoLines.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F7EB4BB2899A39A0012592B /* NoLinesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoLinesApp.swift; sourceTree = "<group>"; };
 		8F7EB4BD2899A39A0012592B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -41,7 +42,6 @@
 		8F7EB4D72899A53D0012592B /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		8F947A26289A2C1F000A7001 /* StoreSearchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreSearchView.swift; sourceTree = "<group>"; };
 		8F947A2A289A2C1F000A7001 /* StoresListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoresListView.swift; sourceTree = "<group>"; };
-		8F947A2B289A2C1F000A7001 /* UpdateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UpdateView.swift; path = ../../../.Trash/UpdateView.swift; sourceTree = "<group>"; };
 		8F947A3A289A2D66000A7001 /* LandmarkAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkAnnotation.swift; sourceTree = "<group>"; };
 		8F947A3B289A2D66000A7001 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		8F947A3E289A2D6A000A7001 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
@@ -81,6 +81,7 @@
 		8F7EB4BA2899A39A0012592B /* NoLines */ = {
 			isa = PBXGroup;
 			children = (
+				8F3209FC289A3B2100E6DA38 /* UpdateView.swift */,
 				8F7EB4BB2899A39A0012592B /* NoLinesApp.swift */,
 				8F947A3E289A2D6A000A7001 /* LocationManager.swift */,
 				8F947A3B289A2D66000A7001 /* Landmark.swift */,
@@ -91,7 +92,6 @@
 				8F7EB4CB2899A3F50012592B /* HomeView.swift */,
 				8F947A26289A2C1F000A7001 /* StoreSearchView.swift */,
 				8F947A2A289A2C1F000A7001 /* StoresListView.swift */,
-				8F947A2B289A2C1F000A7001 /* UpdateView.swift */,
 				8F7EB4CD2899A4060012592B /* Model.swift */,
 				8F7EB4C92899A3DC0012592B /* GoogleService-Info.plist */,
 				8F7EB4BF2899A39B0012592B /* Assets.xcassets */,
@@ -189,7 +189,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F7EB4CC2899A3F50012592B /* HomeView.swift in Sources */,
-				8F947A33289A2C20000A7001 /* UpdateView.swift in Sources */,
+				8F3209FD289A3B2100E6DA38 /* UpdateView.swift in Sources */,
 				8F7EB4BE2899A39A0012592B /* ContentView.swift in Sources */,
 				8F7EB4D22899A5060012592B /* SplashScreenView.swift in Sources */,
 				8F7EB4BC2899A39A0012592B /* NoLinesApp.swift in Sources */,
